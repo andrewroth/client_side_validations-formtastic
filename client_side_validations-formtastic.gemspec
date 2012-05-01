@@ -9,12 +9,12 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/dockyard/client_side_validations-formtastic'
 
   gem.files         = `git ls-files -- {lib/*,vendor/*,*.gemspec}`.split("\n")
-  gem.name          = 'client_side_validations-formtastic'
+  gem.name          = 'andrewroth-client_side_validations-formtastic'
   gem.require_paths = ['lib']
   gem.version       = ClientSideValidations::Formtastic::VERSION
 
-  gem.add_dependency 'client_side_validations', '~> 3.2.0.beta.1'
-  gem.add_dependency 'formtastic', '~> 2.0.0'
+  gem.add_dependency 'andrewroth-client_side_validations', '~> 3.2.0.beta.5'
+  gem.add_dependency 'formtastic', '~> 2.1.1'
 
   gem.add_development_dependency 'rails', '~> 3.2.0'
   gem.add_development_dependency 'mocha'
